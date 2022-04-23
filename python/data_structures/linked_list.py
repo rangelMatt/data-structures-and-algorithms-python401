@@ -1,16 +1,26 @@
 class LinkedList:
     """
-    Put docstring here
+    New Implementation for linked list
     """
 
     def __init__(self):
         # initialization here
         self.head = None
 
+    def __str__(self):
+        # create result
+        current = self.head
+        return_str = ""
+        while current:
+            return_str += f'{{ {current.value} }} -> '
+            current = current.next
+        return return_str + "NULL"
+
 
     def insert(self,value):
         # creating a new Node with the correct value
         self.head = Node(value, self.head)
+
 
     def includes(self, target_value):
         current = self.head
@@ -21,7 +31,6 @@ class LinkedList:
                 return True
 
             current = current.next
-
 
         return False
 
