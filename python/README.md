@@ -74,3 +74,8 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 - **Run every possible test** - `pytest`
 - **Run filtered tests** - `pytest -k some_filter_text`
 - **Run in watch mode** - `ptw` or `pytest-watch`
+
+### Table of Contents
+
+- [Code Challenge 05: Linked Lists](/docs/linked_list_zip/README.md)
+- [Code Challenge 06: Linked Lists Insertions](/docs/linked_list_insertions/README.md)
