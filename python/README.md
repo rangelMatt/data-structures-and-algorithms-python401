@@ -79,3 +79,4 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 - [Code Challenge 05: Linked Lists](/docs/linked_list_zip/README.md)
 - [Code Challenge 06: Linked Lists Insertions](/docs/linked_list_insertions/README.md)
+- [Code Challenge 07: Linked Lists kth](/docs/linked_list_kth/README.md)
