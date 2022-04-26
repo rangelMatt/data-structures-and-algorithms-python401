@@ -29,3 +29,9 @@ O(1), because it is insertion, BUT getting to the middle of node is O(n)
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
+
+## Links and Resources
+
+- [python wife](https://pythonwife.com/linked-lists-in-python/)
+- [real python](https://realpython.com/linked-lists-python/#how-to-insert-a-new-node)
+- [tutorialspoint](https://www.tutorialspoint.com/python-exception-base-classes)
