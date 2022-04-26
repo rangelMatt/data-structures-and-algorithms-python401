@@ -1,13 +1,17 @@
+from collections import deque
+
+
 class LinkedList:
     """
     New Implementation for linked list
     Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
     """
 
-    def __init__(self):
+    def __init__(self, value=[], next=None):
         # initialization here
         self.head = None
-        self.next = None
+        self.value = value
+        self.next = next
 
     def __str__(self):
         # create result
@@ -17,6 +21,26 @@ class LinkedList:
             return_str += f'{{ {current.value} }} -> '
             current = current.next
         return return_str + "NULL"
+
+    def kth_from_end(self, k):
+        length = 0
+        current_node = self.head
+
+        while current_node:
+            length += 1
+            current_node = current_node.next
+
+        current_node = self.head
+
+        run_length = length - k
+
+        if  k + 1 > length or k == -1:
+            raise TargetError
+        else:
+            for i in range(run_length - 1):
+                current_node = current_node.next
+
+        return current_node.value
 
     def append(self, value):
         new_node = Node(value)
