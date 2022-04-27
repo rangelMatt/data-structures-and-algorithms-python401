@@ -1,4 +1,4 @@
-# Singly Linked List
+# Linked List Zip
 <!-- Short summary or background information -->
 Create a Linked List class
 Within your Linked List class, include a head property.
