@@ -24,8 +24,9 @@ class LinkedList:
 
     def kth_from_end(self, k):
         length = 0
+        # setting current to head
         current_node = self.head
-
+        # traverse through the linked list
         while current_node:
             length += 1
             current_node = current_node.next
