@@ -45,13 +45,16 @@ class LinkedList:
 
     def append(self, value):
         new_node = Node(value)
-        # if self.head is None:
-        #     self.head = new_node
-        #     return
+        if self.head is None:
+            self.head = new_node
+            return
         last = self.head
         while last.next:
             last = last.next
         last.next = new_node
+
+    def isEmpty(self):
+        return self.head.next is None
 
     def insert_before(self,value,new_value):
         if not self.head:
