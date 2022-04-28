@@ -77,6 +77,6 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 ### Table of Contents
 
-- [Code Challenge 05: Linked Lists](/docs/linked_list_zip/README.md)
-- [Code Challenge 06: Linked Lists Insertions](/docs/linked_list_insertions/README.md)
-- [Code Challenge 07: Linked Lists kth](/docs/linked_list_kth/README.md)
+- [Code Challenge 05: Linked Lists](../python/docs/linked_list/README.md)
+- [Code Challenge 06: Linked Lists Insertions](../python/docs/linked_list_insertions/README.md)
+- [Code Challenge 07: Linked Lists kth](../python/docs/linked_list_kth/README.md)
