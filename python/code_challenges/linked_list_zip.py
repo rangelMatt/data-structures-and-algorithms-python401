@@ -3,6 +3,9 @@ from data_structures.linked_list import LinkedList
 def zip_lists(a,b=None):
     result = LinkedList()
 
+    """
+    Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped lis
+    """
     current_a = a.head
     current_b = b.head
 
