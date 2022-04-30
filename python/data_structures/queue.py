@@ -5,7 +5,7 @@ from data_structures.invalid_operation_error import InvalidOperationError
 
 class Queue:
     """
-    Put docstring here
+    Create a Queue class that creates an empty Queue when instantiated. Should have the following methods: enqueue, dequeue, peek, isempty
     """
 
     def __init__(self):
@@ -15,7 +15,7 @@ class Queue:
     def enqueue(self, value):
         if not self.front:
             self.front = Node(value)
-            self.rear = self.front
+            self.rear = self.front  ##Confirm own logic
             return
 
         temp = self.rear

@@ -5,7 +5,7 @@ from data_structures.invalid_operation_error import InvalidOperationError
 
 class Stack:
     """
-    Put docstring here
+    Create a stack class that creates an empty Stack when instantiated. Should have the following methods: push, pop, peek, isempty
     """
 
     def __init__(self):
