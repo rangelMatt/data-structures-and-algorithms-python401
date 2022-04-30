@@ -108,6 +108,10 @@ class LinkedList:
         return False
 
 class Node:
+    """
+    Properties for the value stored in the Node, and a pointer to the next node.
+    """
+
     def __init__(self, value, next=None):
         self.value = value
         self.next = next
