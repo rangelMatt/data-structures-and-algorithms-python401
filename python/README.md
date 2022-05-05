@@ -16,6 +16,8 @@
 - [Code Challenge 10: Stacks and Queues](../python/docs/stack_and_queue/README.md)
 - [Code Challenge 11: Stack Queue Pseudo](../python/docs/stack_queue_pseudo/README.md)
 - [Code Challenge 12: Stack Queue Animal Shelter](../python/docs/stack_queue_animal_shelter/README.md)
+- [Code Challenge 13: Stack-Queue-Brackets](../python/docs/stack_queue_brackets/README.md)
+
 
 ### Folder and Challenge Setup
 
