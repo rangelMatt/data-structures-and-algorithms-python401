@@ -2,7 +2,6 @@
 <!-- Short summary or background information -->
 Write a method that finds a maximum stored method for the Binary Tree Class. Takes in no arguments, and returns a number.
 
-
 ## Challenge
 <!-- Description of the challenge -->
 New Implementation
