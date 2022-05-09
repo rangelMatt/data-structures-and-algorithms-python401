@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self,value):
         self.value = value
@@ -69,4 +70,22 @@ class BinaryTree:
 
         climb(self.root, ordered_values)
 
+
+
         return ordered_values
+
+
+    def find_maximum_value(self):
+        if self.root:
+            value = self.in_order()
+            max_value = value[0]
+
+            for num in value:
+                if num > max_value:
+                    max_value = num
+
+            return max_value
+
+        else:
+
+            return 'We Aint found Root!'
