@@ -76,16 +76,16 @@ class BinaryTree:
 
 
     def find_maximum_value(self):
-        if self.root:
-            value = self.in_order()
-            max_value = value[0]
+        if self.root:  # check if root is there
+            value = self.in_order()  # assign in order method to value
+            max_value = value[0]    # look at values first value and assign in to max_value
 
-            for num in value:
-                if num > max_value:
-                    max_value = num
+            for num in value:       # for each number in value
+                if num > max_value:  # check if num is greater than max_value
+                    max_value = num # assign num to max_value
 
-            return max_value
+            return max_value        # return max_value
 
         else:
 
-            return 'We Aint found Root!'
+            return 'We Aint found Root!'    # return false
