@@ -1,16 +1,72 @@
+class Node:
+    def __init__(self,value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+
 class BinaryTree:
     """
-    Put docstring here
+    Class Binary Tree containing 3 methods; pre-order, in-order, post-order.
     """
-
     def __init__(self):
-        # initialization here
-        pass
+        self.root = None
 
-    def some_method(self):
-        # method body here
-        pass
+    def pre_order(self):
+        """
+        Traverse the tree in a pre-order fashion
+        return list of the values in correct order
+        """
+        def climb(root, values): # root = a Node or more. Recursive function
+            if not root:
+                return
+            # Task 1: do something
+            values.append(root.value)
+            # Task 2: go left
+            climb(root.left, values)
+            # Task 3: go right
+            climb(root.right, values)
+        ordered_values = []
+        climb(self.root, ordered_values)
 
+        return ordered_values
 
-class Node:
-    pass
+    def in_order(self):
+        """
+        Traverse the tree in a in-order fashion
+        return list of the values in correct order
+        """
+        def climb(root, values): # root = a Node or more. Recursive function
+            if not root:
+                return
+            # Task 1: go left
+            climb(root.left, values)
+            # Task 2: do something
+            values.append(root.value)
+            # Task 3: go right
+            climb(root.right, values)
+        ordered_values = []
+        climb(self.root, ordered_values)
+
+        return ordered_values
+
+    def post_order(self):
+        """
+        Traverse the tree in a post-order fashion
+        return list of the values in correct order
+        """
+        def climb(root, values): # root = a Node or more. Recursive function
+            if not root:
+                return
+            # Task 1: go left
+            climb(root.left, values)
+            # Task 2: go right
+            climb(root.right, values)
+            # Task 3: do something
+            values.append(root.value)
+
+        ordered_values = []
+
+        climb(self.root, ordered_values)
+
+        return ordered_values
