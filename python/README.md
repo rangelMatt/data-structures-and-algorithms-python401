@@ -19,6 +19,7 @@
 - [Code Challenge 13: Stack-Queue-Brackets](../python/docs/stack_queue_brackets/README.md)
 - [Code Challenge 15: Trees](../python/docs/trees/README.md)
 - [Code Challenge 16: Tree Max](../python/docs/tree_max/README.md)
+- [Code Challenge 17: Tree Breadth First](../python/docs/tree_breadth_first/README.md)
 
 ### Folder and Challenge Setup
 
