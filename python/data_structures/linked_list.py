@@ -4,7 +4,7 @@ from collections import deque
 class LinkedList:
     """
     New Implementation for linked list
-    Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
+    Create a Node class that has properties for the value stored in the Node, and a current to the next Node.
     """
 
     def __init__(self, value=[], next=None):
@@ -111,10 +111,39 @@ class Node:
     """
     Properties for the value stored in the Node, and a pointer to the next node.
     """
-
+    # creating a box, now you need contents of a box and address
     def __init__(self, value, next=None):
+        #the box is holding
         self.value = value
+
+        #label for the box
         self.next = next
+
+
 
 class TargetError(Exception):
     pass
+
+
+class LinkedList():
+#linked list(train) is made up of train cars(nodes)
+    def __init__(self, head=None):
+#train car has contents knows the next train
+    self.head = head
+
+
+# add a car instruction set
+def append(self, node):
+# person start at the head
+    current = self.head
+# find the caboose by going to the next node, do this as many times to get to the end.
+    while current.next is not None:
+        current = current.next
+# once caboose is found, add a train car to the end of the train
+    current.next = node
+    # node = current.next <- bad
+
+# insert is at the beginning
+# append is at the end
+
+
