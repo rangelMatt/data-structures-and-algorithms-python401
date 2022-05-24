@@ -21,6 +21,7 @@
 - [Code Challenge 16: Tree Max](../python/docs/tree_max/README.md)
 - [Code Challenge 17: Tree Breadth First](../python/docs/tree_breadth_first/README.md)
 - [Code Challenge 18: Tree Fizz Buzz](../python/docs/tree_fizz_buzz/README.md)
+- [Code Challenge 26: Insertion Sort](../sorting/insertion/README.md)
 
 ### Folder and Challenge Setup
 
