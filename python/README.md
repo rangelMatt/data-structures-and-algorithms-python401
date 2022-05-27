@@ -23,6 +23,7 @@
 - [Code Challenge 18: Tree Fizz Buzz](../python/docs/tree_fizz_buzz/README.md)
 - [Code Challenge 26: Insertion Sort](../sorting/insertion/README.md)
 - [Code Challenge 27: Merge Sort](../sorting/merge/README.md)
+- [Code Challenge 31: Hashmap Repeated Word](../python/docs/hashtable_repeated_word/README.md))
 
 ### Folder and Challenge Setup
 
