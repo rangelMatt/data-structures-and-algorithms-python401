@@ -24,6 +24,7 @@
 - [Code Challenge 26: Insertion Sort](../sorting/insertion/README.md)
 - [Code Challenge 27: Merge Sort](../sorting/merge/README.md)
 - [Code Challenge 31: Hashmap Repeated Word](../python/docs/hashtable_repeated_word/README.md))
+- [Code Challenge 30: Hashtable](../python/docs/hashtable/README.md))
 
 ### Folder and Challenge Setup
 
