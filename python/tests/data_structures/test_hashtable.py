@@ -157,6 +157,7 @@ def test_internals():
 
 
 #Hot to handle updates
+@pytest.mark.skip("TODO")
 def test_set_update():
     ht = Hashtable()
     ht.set("cat","josie")
