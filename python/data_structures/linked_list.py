@@ -107,6 +107,22 @@ class LinkedList:
 
         return False
 
+    def display(self):
+        #start at head of bucket
+        current = self.head
+        display = []
+        # step through nodes of bucket one by one
+        while current is not None:
+            # at each node get the key value list
+            key_value_list = list(current.value)
+            # append list to output list
+
+            display.append(key_value_list)
+            # got to next node
+            current = current.next
+        #return output list of key value pairs in the bucket
+        return display
+
 class Node:
     """
     Properties for the value stored in the Node, and a pointer to the next node.
@@ -125,25 +141,25 @@ class TargetError(Exception):
     pass
 
 
-class LinkedList():
-#linked list(train) is made up of train cars(nodes)
-    def __init__(self, head=None):
-#train car has contents knows the next train
-    self.head = head
+# class LinkedList():
+# #linked list(train) is made up of train cars(nodes)
+#     def __init__(self, head=None):
+# #train car has contents knows the next train
+#     self.head = head
 
 
-# add a car instruction set
-def append(self, node):
-# person start at the head
-    current = self.head
-# find the caboose by going to the next node, do this as many times to get to the end.
-    while current.next is not None:
-        current = current.next
-# once caboose is found, add a train car to the end of the train
-    current.next = node
-    # node = current.next <- bad
+# # add a car instruction set
+# def append(self, node):
+# # person start at the head
+#     current = self.head
+# # find the caboose by going to the next node, do this as many times to get to the end.
+#     while current.next is not None:
+#         current = current.next
+# # once caboose is found, add a train car to the end of the train
+#     current.next = node
+#     # node = current.next <- bad
 
-# insert is at the beginning
-# append is at the end
+# # insert is at the beginning
+# # append is at the end
 
 
