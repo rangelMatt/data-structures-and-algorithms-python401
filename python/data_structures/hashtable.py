@@ -2,24 +2,24 @@ from data_structures.linked_list import LinkedList
 
 # creates Hashtable
 class Hashtable:
-    """
-    Put docstring here
-    """
 
-    def __init__(self, size=1024, key=None):
+    def __init__(self, size=1024):
         self.size = size
         # array of none, multiplied by size, this will represent empty units till we put stuff in it
 
         # pre generated list of objects
         self._buckets = [None] * self.size
 
-        self.key = key
 
 
     # hash method that takes in a key
     def hash(self,key):
-
+        """
+        - Arguments: key
+        - Returns: Index in the collection for that key
+        """
         # Add or multiply all the ASCII values together.
+        key = str(key)
         sum_of_chars = 0
 
         for char in key:
@@ -58,6 +58,8 @@ class Hashtable:
         index = self.hash(key)
         # go the the address in _buckets and grab the bucket
         bucket = self._buckets[index]
+        if self._buckets[index] is None:
+            return None
 
         current = bucket.head
 
@@ -69,10 +71,10 @@ class Hashtable:
                 return pair[1]
 
             current = current.next
-        return None
+
 
     def contains(self, key):
-        if self.get(key):
+        if self.get(key) is not None:
             return True
         else:
             return False
