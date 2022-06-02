@@ -26,6 +26,7 @@
 - [Code Challenge 31: Hashmap Repeated Word](../python/docs/hashtable_repeated_word/README.md)
 - [Code Challenge 30: Hashtable](../python/docs/hashtable/README.md)
 - [Code Challenge 32: Tree Insertion](../python/docs/tree_intersection/README.md)
+- [Code Challenge 33: Hashmap Left Join](../python/docs/hashtable_left_join/README.md)
 
 ### Folder and Challenge Setup
 

@@ -3,7 +3,6 @@ from data_structures.hashtable import Hashtable
 
 def tree_intersection(tree1, tree2):
     ht = Hashtable()
-
     #create an empty list to store common values
     commons = set()
 
