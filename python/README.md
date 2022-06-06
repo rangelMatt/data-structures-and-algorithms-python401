@@ -27,7 +27,7 @@
 - [Code Challenge 30: Hashtable](../python/docs/hashtable/README.md)
 - [Code Challenge 32: Tree Insertion](../python/docs/tree_intersection/README.md)
 - [Code Challenge 33: Hashmap Left Join](../python/docs/hashtable_left_join/README.md)
-- [Code Challenge 34: Graph](../python/docs/graph/README.md)
+- [Code Challenge 35: Graph](../python/docs/graph/README.md)
 
 ### Folder and Challenge Setup
 
